@@ -65,12 +65,12 @@ int[] FindSumRow(int[,] arr)
 
 void PrintArray(int[] arr)
 {
-    Console.Write("[");
+    
     for(int i = 0; i < arr.Length; i++)
     {
-        Console.Write($"{arr[i]}, ");
+        Console.WriteLine($"Сумма элементов {i+1}-й строки = {arr[i]}, ");
     }
-    Console.WriteLine("\b\b]");
+    
     Console.WriteLine();
 }
 
